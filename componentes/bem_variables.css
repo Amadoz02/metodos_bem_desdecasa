@@ -1,0 +1,71 @@
+:root{
+    --gris: #d4d4d4;
+    --clarito-azul:#daedffe0;
+    --azul: #a8a8ffb8;
+    --blanco: white;
+    --negro: #000;
+    --verde: #92e07b;
+    --lila: #e99ef8;
+    --rojito: rgb(239, 137, 137);
+    --oscuro: rgb(53, 9, 77);
+    --trancicion: 0.3s;
+    --oscuro: #333;
+    --rojito: #f00;
+    --azul-oscuro: #03A9F4;
+    --gis: #ccc;
+    --negro: #000;
+    --speaker-size: 50px;
+    --speaker-color: #fff;
+    --speaker-background-color: var(--oscuro);
+    --speaker-hover-color: #ccc;
+    --speaker-hover-background-color: var(--gis);
+}
+hr{
+    margin: 30px 0;
+}
+
+.header {
+    background-color: var(--negro);
+    color: var(--blanco);
+    padding: 20px;
+    text-align: center;
+}
+
+.main {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0 auto;
+}
+
+.buttons {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.button {
+background-color: var(--gris);
+color: var(--negro);
+border: none;
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+margin: 10px;
+}
+
+.button.navbara--oscuro {
+background-color: var(--negro);
+color: var(--blanco);
+}
+
+.button.navbara--verde {
+background-color: var(--verde);
+color: var(--negro);
+}
+
+.button.navbara--grande {
+font-size: 18px;
+padding: 15px 30px;
+}

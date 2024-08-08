@@ -1,0 +1,58 @@
+
+  .speaker {
+    width: var(--speaker-size);
+    height: var(--speaker-size);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--speaker-background-color);
+    border-radius: 50%;
+    cursor: pointer;
+    transition-duration: .3s;
+    box-shadow: 2px 2px 10px var(--negro);
+    overflow: hidden;
+    margin: 10px auto;
+  }
+  
+  /* Speaker element */
+  .speaker svg {
+    width: 18px;
+    fill: var(--speaker-color);
+  }
+  
+  /* Speaker modifier */
+  .speaker--rojo {
+    background-color: var(--rojito);
+  }
+  
+  .speaker--rojo svg {
+    fill: var(--speaker-color);
+  }
+  
+  .speaker--azul {
+    background-color: var(--azul-oscuro);
+  }
+  
+  .speaker--azul svg {
+    fill: var(--speaker-color);
+  }
+  
+  /* Speaker hover */
+  .speaker:hover {
+    background-color: var(--speaker-hover-background-color);
+    box-shadow: 2px 2px 10px var(--negro);
+    transform: scale(1.1);
+  }
+  
+  .speaker--rojo:hover {
+    background-color: var(--speaker-hover-background-color);
+    box-shadow: 2px 2px 10px var(--negro);
+    transform: scale(1.1);
+  }
+  
+  .speaker--azul:hover {
+    background-color: var(--speaker-hover-background-color);
+    box-shadow: 2px 2px 10px var(--negro);
+    transform: scale(1.1);
+  }
+

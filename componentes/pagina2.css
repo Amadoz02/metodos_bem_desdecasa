@@ -1,0 +1,92 @@
+.nav {
+  list-style: none;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1px solid var(--negro);
+  border-style: dashed;
+  border-radius: 10px;
+  background-color: var(--lila);
+  height: fit-content;
+  width: 200px;
+  transition: var(--trancicion);
+}
+
+.nav__item {
+  border-bottom: 1px solid var(--negro);
+  padding: 20px;
+  width: 200px;
+}
+.nav__item:last-child{
+  border-bottom: none;
+}
+.nav__link {
+  text-decoration: none;
+  color: var(--negro);
+  transition: color 0.2s ease;
+}
+
+.nav__link:hover{
+  color:var(--blanco);
+  text-decoration-line: underline;
+  font-size: 1.1rem;
+  transition: var(--trancicion);
+}
+
+li.nav__item--colortransition{
+  width: 200px;
+  text-decoration: none;
+  list-style: none;
+
+}
+.nav__link--colortransition{
+  text-decoration: none;
+  color: var(--verde);
+  transition: color 0.2s ease;
+  width: 200px;
+  padding: 20px 0;
+  display: block;
+}
+ul.nav--colortransition{
+  background-color: var(--rojito);
+  border-style: dotted;
+}
+li.nav__item--colortransition:hover {
+  padding: 5px;
+  text-decoration: line-through;
+  list-style: none;
+  color: var(--negro);
+  background-color: var(--blanco);
+  border-radius: 10px;
+
+}
+.nav__link--colortransition:hover{
+  text-decoration: none;
+  color: var(--negro);
+  transition: color 0.2s ease;
+  width: 200px;
+  position: relative;
+}
+
+a.nav__link--formas:hover{
+  color: var(--oscuro);
+}
+
+li.nav__item--formas {
+ background-color: var(--clarito-azul);
+ border-radius: 10px;
+ box-shadow: 0 10px 10px var(--clarito-azul);
+ border-bottom: 1px solid var(--negro);
+}
+li.nav__item--formas:last-child{
+ border-bottom: 1px solid var(--negro);
+
+}
+ul.nav--formas{
+ background-color: var(--blanco);
+ border: 1px solid var(--clarito-azul);
+ 
+}
